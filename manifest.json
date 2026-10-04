@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Mindful Scroll",
+  "version": "1.0",
+  "description": "Avoid mindless scrolling. Set the number of pages you would like to scroll, and the extension disables the browser scrollbar once you have scrolled the set number of pages.",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["script.js"],
+      "css": ["style.css"]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+#mindful-scroll {
+    position: fixed;
+    z-index: 2147483647;
+}
+
+form#number-input {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+}
+
+form#number-input input {
+    border-radius: 0;
+    border: 2px solid #1a1a1a;
+    background-color: f5f5f5;
+    padding: 2.5px;
+}
+
+form#number-input button {
+    border: 2px solid #f5f5f5;
+    background-color: #1a1a1a;
+    color: #f5f5f5;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+#page-number-container {
+    position: fixed;
+    bottom: 40px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    background-color: #1a1a1a;
+    color: #f5f5f5;
+    padding: 5px 7px;
+}
+
+#notice {
+    background-color: #1a1a1a;
+    height: 200px;
+    width: 300px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    visibility: hidden;
+    color: #f5f5f5;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 21px;
+}
