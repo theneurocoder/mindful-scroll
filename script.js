@@ -1,3 +1,5 @@
+// Developed by Abdullah Alhomoud
+
 const extensionUI = document.createElement("div");
 
 extensionUI.innerHTML = `
